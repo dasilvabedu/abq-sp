@@ -1,6 +1,16 @@
 /* configurações gerais */
+body {
+	background-color: #F2F2F2;
+}
+
 
 #home {
+	background: #0174DF;
+	color: white;
+	margin-top: 100px;
+}
+
+#home1 {
 	background: #0174DF;
 	color: white;
 	margin-top: 100px;
@@ -84,6 +94,38 @@
 		width: 5%;
 }
 
+/* botões */
+
+.btn-custom {
+	margin: 10px 250px;
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 15px;
+	background: #0174DF;
+}	
+
+.rodape {
+	background-color: #0174DF;
+	height: 100px;
+
+}
+
+.rodape a {
+	font-size: 1em;
+	color:  #fff;
+	line-height: 30px;	
+	text-decoration: none;
+	margin-left: 5px;
+	
+}
+.rodape a:hover {
+	background: #f0f0f0 ;
+	color: #a1a1a1;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -132,64 +174,6 @@ h1#titulos {
 .carousel-control-prev, .carousel-control-next {
 		width: 5%;
 }
-
-h1#Was {
-		font-family:'Slabo 27px', serif;
-		text-indent: 50px;
-		font-weight: bold;
-		font-size: 50px;
-		text-align: center;
-		color: rgba(255,255,255,1);
-		text-shadow: 1px 1px 1px black;
-		background-color: rgba(118,209,255,1);
-		display: block;
-		transition: box-shadow .3s;
-}
-h1#Was:hover {
-		box-shadow: 4px 4px 4px rgba(0,0,0,.5); 
-}
-section#Wenn {
-		display:block;
-		transition: box-shadow .3s;
-}
-h1#idd {
-		font-family:'Slabo 27px', serif;
-		font-weight: bold;
-		font-size: 50px;
-		text-align: center;
-		margin-top: 0px;
-	}
-	section#common {
-		transition: border-style .3s;
-		transition: border-width .3s;
-	}
-	section#common:hover {
-		border-style: solid;
-		border-width: medium;
-		border-color: rgba(118,209,255,1);
-	}
-	img#capasant {
-		height: 10%;
-		width: 50%;
-		margin-left: 25%;
-		margin-right: 25%;
-	}
-	td#dadosant {
-	font-family: 'Thasadith', sans-serif;
-	border: 1px solid;
-	padding: 10px;
-	font-size: 20px;
-	font-weight: bold;
-	}
-	td#titant {
-	font-family: 'Slabo 27px', serif;
-	border: 1px solid;
-	padding: 10px;
-	font-size: 20px;
-	font-weight: bold;
-	}
-
-		/*regulamento*/
 	
 	
 li#regulamento {
@@ -572,64 +556,7 @@ li#premios{
 		text-align: center;
 		transition: background-color .4s;
 	}
-	/*Menu de navegação */
-	header {
-		position: static;
-		height: 100%;
-		width: 100%;
-		background-color: rgba(1,170,255,0);
-		box-shadow: 0px 0px 0px;
-		margin: auto;
-		}
-	nav#menu ul{
-		list-style: none;
-	}
 
-	li#barra {
-		position: static;
-		font-family: 'Thasadith', sans-serif;
-		font-weight:bolder;
-		display: block;
-		background-color: rgba(1,170,255,1);
-		padding: 10px;
-		margin-top: 0px;
-		margin-bottom: 25px;
-		margin-left: 0%;
-		box-shadow: 0px 0px 0px;
-		width: 90%;
-		text-align: center;
-
-	}
-	li#barra:hover {
-		background-color: white;
-	}
-	a#navigation {
-		text-decoration: none;
-		color: white;
-		transition: color .4s
-	}
-	a#navigation:hover{
-		color: black
-	}
-
-	p {
-	text-indent: 30px;
-	font-family: 'Thasadith', sans-serif;
-	font-size: 17px;
-	text-align:justify;
-	margin: 0px 5px 0px 5px;
-	font-weight: bold;
-	max-width: 1200px;
-	width: 80%;
-	}
-
-	body {
-		background: url("fundovini2.jpg");
-		margin-top: 30%;
-		background-position: 100% 100%;
-
-
-	}
 /*Patrocínio*/
 	footer {
 		display: block;
@@ -641,8 +568,8 @@ li#premios{
 		max-width: 1200px;
 	}
 
-	section#patrocinio {
-		background-color: white;
+	.patrocinio {
+		background-color: #0174DF;
 		border: 3px solid;
 		border-color: rgba(255,255,255,1);
 		width: 99%;
@@ -650,7 +577,7 @@ li#premios{
 
 	}
 	section#promocao {
-		background-color: white;
+		background-color: #0174DF;
 		display: block;
 		float: none;
 		width: 99%;
@@ -658,7 +585,7 @@ li#premios{
 		border-color: rgba(255,255,255,1);
 	}
 	section#divulgacao {
-		background-color: white;
+		background-color: #0174DF;
 		display: block;
 		float: none;
 		border: 3px solid;
@@ -666,7 +593,7 @@ li#premios{
 		width: 99%;
 	}
 	section#apoio {
-		background-color: white;
+		background-color: #0174DF;
 		display: block;
 		float: none;
 		border: 3px solid;
